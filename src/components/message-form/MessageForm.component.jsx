@@ -38,7 +38,7 @@ const MessageForm = () => {
           onChange={handleMessageChange}
           required
         ></textarea>
-        <button>Send message</button>
+        <button className="primary-button">Send message</button>
       </form>
     </div>
   );
